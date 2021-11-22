@@ -1,0 +1,157 @@
+<html>
+<head>
+  <title>Barber shop website design</title>
+  <link rel="stylesheet" href="website.css">
+  <meta name="viewport" content="width=device-width,initial scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  </head>
+  <body>
+    <section id="banner">
+            <img src="pictures/logo.png" class="logo">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+          <p>Style Your hair Is Style Your Life</p>
+      <div class="banner-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+          </div>
+      </div>
+  </section>
+      <div id="sideNav">
+          <nav>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">FEATURES</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">TESTIMONIALS</a></li>
+              <li><a href="#">MEET US</a></li>
+          </ul>
+          </nav>
+        </div>
+      <div id="menuBtn">
+               <img src="pictures/menu.png" id="menu">
+          </div>
+          <!--Features-->
+        <section id="feature">
+           <div class="title-text">
+                   <p>FEATURES</p>
+                <h1>Why Choose us</h1>
+               </div>
+           <div class="feature-box">
+                 <div class="features">
+                    <h1>Experinced staff</h1>
+                      <br>
+                     <p> we providebetter services with experinced staff.</p>
+                </div>
+            <div class="features-img">
+                  <img src="pictures/barber-man.jpg">
+                </div>
+             </section>
+          <section id="service">
+              <div class="title-text">
+                <p>SERVICES</p>
+              <h1>We provide better services</h1>
+          </div>
+            <div class="service-box">
+               <div class="single service">
+                    <img src="pictures/pic-1.jpg">
+                      <div class="service-desc">
+                    <h3>Hair Styling</h3>
+                  <hr>
+                 <p>this is test under descripton of barber foundation this is test under description of barber founation,</p>
+              </div>
+               <div class="single service">
+                  <img src="pictures/pic-2.jpg">
+                    <h3>Beard Trim</h3>
+                  <hr>
+                <p>this is test under descripton of barber foundation this is test under description of barber founation,</p>
+              </div>
+                <div class="single service">
+                   <img src="pictures/pic-3.jpg">
+                <h3>Hair cut</h3>
+                <hr>
+              <p>this is test under descripton of barber foundation this is test under description of barber founation,</p>
+            </div>
+              </div>
+                <div class="single service">
+                   <img src="pictures/pic-4.jpg">
+                  <div= class="service-desc">
+                     <h3>Dry Shampoo</h3>
+                    <hr>
+                  <p>this is test under descripton of barber foundation this is test under description of barber founation,</p>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+              </section>
+              <section id="textimonial">
+                <div class="title-text">
+                  <p>TESTIMONIAL</p>
+                  <h1>what Client Says</h1>
+                </div>
+                <div class="testimonial-row">
+                  <div class="testimonial-col">
+                    <div class="user">
+                      <img src="pictures/img-1.jpg">
+                      <div class="user-info">
+                        <h4>KEN NORMAN </h4>
+                        <small>@kennorman</small>
+                      </div>
+                    </div>
+                    <p>Done eget ultricies sapi. sed porttior,mauris ater lob facilities/elit sapie eleifend ligula.</p>
+                  </div>
+                  <div class="testimonial-col">
+                    <div class="user">
+                      <img src="pictures/img-2.jpg">
+                      <div class="user-info">
+                        <h4>liara Karaian </h4>
+                        <small>@liara kariana</small>
+                      </div>
+                    </div>
+                    <p>Done eget ultricies sapi. sed porttior,mauris ater lob facilities/elit sapie eleifend ligula.</p>
+                  </div>
+                </div>
+                  <div class="testimonial-col">
+                </section>
+
+                <section-id="footer">
+                <div class="title-text">
+                  <p>CONTACT</p>
+                  <h1>Visit Shop Today</h1>
+                </div>
+                <div class="footer-row">
+                  <div class="footer-left">
+                    <h1>Openig Hour</h1>>
+                    <p></i>Monday To Friday - 9am to 9pm</p>
+                    <p>Saturday and Sunday - 8am to 11pm</p>
+                  </div>
+                 <div class="footer-right">
+                   <h1>Get in Touch</h1>
+                   <p>#30 abc colony,xyz city IN </p>
+                   <p>exaple@website.com</i></p>
+                   <p>+01 2725357></p>
+                 </div>
+               </div>
+              </section>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+             sideNav.style.right = -"250px";
+          menuBtn.onclick = function(){
+         if(sideNav.style.right =="-250px"){
+             sideNav.style.right="0";
+             menu.src="pictures/close.png";
+         }
+         else{
+           sideNav.style.right = "-250px";
+              menu.src="pictures/close.png";
+
+         }
+      }
+      </script>
+          </body>
+
+      </html>
